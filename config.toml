@@ -1,6 +1,6 @@
 baseURL = "https://peperon4141.github.io/nyanto/"
 title = "ニャンと素晴らしい日常"
-theme ="my-theme"
+theme ="nyanto-theme"
 languageCode = "en-us"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
