@@ -9,6 +9,7 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
 # リンクを絶対パスにする場合はtrue
 canonifyurls = true
 
+
 [taxonomies]
   category = "categories"
   series = "series"
