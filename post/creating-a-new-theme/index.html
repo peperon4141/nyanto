@@ -1,71 +1,16 @@
 <!DOCTYPE html>
-<html
-  class=""
-  lang="en-us"
-  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
->
-  <head>
-    <meta charset="utf-8" />
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="description" content="" />
-<meta name="HandheldFriendly" content="True" />
-<meta name="MobileOptimized" content="320" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
-<meta name="keywords" content="">
-
-
-<meta property="og:type" content="article" />
-<meta property="og:description" content="" />
-<meta property="og:title" content="Creating a New Theme" />
-<meta property="og:site_name" content="Hugo Theme Basic" />
-<meta property="og:image" content="" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta property="og:image:width" content="" />
-<meta property="og:image:height" content="" />
-<meta property="og:url" content="https://www.example.com/post/creating-a-new-theme/" />
-<meta property="og:locale" content="en-us" />
-<meta property="article:published_time" content="2014-09-28
-" /> <meta property="article:modified_time" content="2014-09-28
-" />
+<html>
+  
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 
+<link rel="stylesheet" href="https://peperon4141.github.io/nyanto/css/style.css" />
 
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@siegerts" />
-<meta name="twitter:creator" content="@siegerts" />
-<meta
-  name="twitter:title"
-  content="Creating a New Theme | Hugo Theme Basic"
-/>
-<meta
-  name="twitter:description"
-  content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.|"
-/>
-<meta name="twitter:image:src" content="" />
-<meta name="twitter:domain" content="https://www.example.com/post/creating-a-new-theme/" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-
-
-    <title>Creating a New Theme</title>
-    <link rel="canonical" href="https://www.example.com/post/creating-a-new-theme/" />
-
-
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/tachyons@4.11.1/css/tachyons.min.css"
-/>
-
-<link rel="stylesheet" href="https://www.example.com/css/style.css" />
-
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/highlightjs@9.12.0/styles/github-gist.css"
-/>
 
 
 <script type="application/javascript">
@@ -89,30 +34,89 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  </head>
+<title>ニャンと素晴らしい日常</title>
 
 
-<body
-  lang="en-us"
-  class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns"
-  itemscope
-  itemtype="http://schema.org/Article"
->
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content="" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="MobileOptimized" content="320" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<meta name="keywords" content="">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content="" />
+<meta property="og:title" content="Creating a New Theme" />
+<meta property="og:site_name" content="ニャンと素晴らしい日常" />
+<meta property="og:image" content="" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://peperon4141.github.io/nyanto/post/creating-a-new-theme/" />
+<meta property="og:locale" content="en-us" />
+<meta property="article:published_time" content="2014-09-28" />
+<meta property="article:modified_time" content="2014-09-28" />
+
+
+
+
+
+  <body>
+    <header class="header">  
   
-  <span class="b">/ </span>
-  <a href="https://www.example.com/" class="b bb bw1 pb1 no-underline black">Hugo Theme Basic</a>
-  <span class="b"> / </span>
-  <a href="/post" class="b bb bw1 pb1 no-underline black">blog</a>
+  <nav class="navbar p-2" style="background-color: var(--main-color); border-bottom: 4px solid var(--dark-main-color);">
+    <a class="navvar-brand" href="https://peperon4141.github.io/nyanto/">
+      <img class="is-rounded" src="https://via.placeholder.com/40x40">
+    </a>
+    <a class="navbar-item" href="https://peperon4141.github.io/nyanto/" style="margin: 0 auto; text-decoration: none; color: var(--text-color); box-sizing: border-box;">
+      ニャンと素晴らしい日常
+    </a>
+  </nav>
 
-  <section id="main" class="mt5">
-    <h1 itemprop="name" id="title">Creating a New Theme</h1>
-    <span class="f6 gray">September 28, 2014</span>
+  
+  <img src="https://via.placeholder.com/1600x800" alt="">
 
-      <article itemprop="articleBody" id="content" class="w-90 lh-copy">
-        <h2 id="introduction">Introduction</h2>
+  
+  <nav id="menu" class="d-flex justify-content-between p-3" style="border-bottom: 4px solid var(--dark-main-color);">
+    <div class="m-1">
+      <span class="p-3"><a>TOP</a></span>
+      <span class="p-3"><a>漫画</a></span>
+      <span class="p-3"><a>ブログ</a></span>
+      <span class="p-3"><a>プロフィール</a></span>
+      <span class="p-3"><a>お問い合わせ</a></span>
+    </div>
+    <div class="m-1">
+      <span class="p-3"><a>フォロー</a></span>
+    </div>
+  </nav>
+
+  
+  <nav class="p-3">
+    <ul class="breadcrumb mb-0" style="--bs-breadcrumb-divider: '>';">
+      <li class="breadcrumb-item"><a href="https://peperon4141.github.io/nyanto/">ニャンと素晴らしい日常</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ul>
+  </nav>
+</header>
+
+
+    <div class="row">
+      <div class="col-md-8">
+<main class="container">
+    <h1 class="border-bottom">Creating a New Theme</h1>
+    <span class="blog-post-meta">2014.09.28</span>
+
+    <article class="blog-post">
+      <img src="https://via.placeholder.com/800x1600" alt="">
+    </article>
+    <article class="blog-post"><h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
 <p>In this tutorial, commands that you enter will start with the &ldquo;$&rdquo; prompt. The output will follow. Lines that start with &ldquo;#&rdquo; are comments that I&rsquo;ve added to explain a point. When I show updates to a file, the &ldquo;:wq&rdquo; on the last line means to save the file.</p>
@@ -918,65 +922,36 @@ $ vi themes/zafta/layouts/_default/single.html
 </code></pre><p>Note that we removed the date logic from the default template and put it in the post template. Generate the web site and verify the results. Posts have dates and the about page doesn&rsquo;t.</p>
 <h3 id="dont-repeat-yourself">Don&rsquo;t Repeat Yourself</h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
-
-      </article>
-
-      
-      <span class="f6 gray mv3" title="Lastmod: September 28, 2014. Published at: 2014-09-28.">
-        
-      </span>
-
-      
-        <section class="mt4">
-          
-          
-          <h3>👋 Related posts in the <a href="/series/hugo-101" class="b bb bw1 pb1 no-underline black">Hugo 101</a> series...</h3>
-      
-          
-         
-          
-            <ul class="list pl0">
-              
-                <li class="list pl0 lh-copy">
-                  <a
-                    class="f4 b dib black no-underline"
-                    href="https://www.example.com/post/getting-started-with-hugo/"
-                    >Getting Started with Hugo</a
-                  >
-                  <span class="f6 gray">April 2, 2014</span>
-                </li>
-              
-                <li class="list pl0 lh-copy">
-                  <a
-                    class="f4 b dib black no-underline"
-                    href="https://www.example.com/post/migrate-to-hugo-from-jekyll/"
-                    >Migrate to Hugo from Jekyll</a
-                  >
-                  <span class="f6 gray">March 10, 2014</span>
-                </li>
-              
-            </ul>  
-          
-        </section>
-      
-
-  </section>
-
-  <footer>
-    <div>
-      <p class="f6 gray mt6 lh-copy">
-        © 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>.
-      </p>
+</article>
+</main>
+</div>
+      <div class="col-md-4"><div class="position-sticky p-3" style="top: 2rem;">
+  <div class="card">
+    <div class="card-header">About</div>
+    <div class="card-body">
+      <p>プロフィーる</p> 
+      <img class="rounded-1" src="https://via.placeholder.com/400x400">
     </div>
-  </footer>
-  
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+  </div>
 
-<script>
-  hljs.initHighlightingOnLoad();
-</script>
+  <div class="card" style="margin-top: 20px;">
+    <div class="card-body">
+      <h2 class="card-title">About</h2>
+      <p class="card-text">プロフィーる</p> 
+    </div>
+  </div>
 
-
-
+  <div class="card" style="margin-top: 20px;">
+    <div class="card-body">
+      <h2 class="card-title">About</h2>
+      <p class="card-text">プロフィーる</p> 
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    <footer class="footer mt-auto py-3" style="background-color: var(--main-color); border-top: 4px solid var(--dark-main-color);">
+  <p class="text-center">© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>.</p>
+</footer>
   </body>
 </html>

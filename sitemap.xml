@@ -3,133 +3,132 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.example.com/categories/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/categories/development/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/tags/development/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/project/hugo/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/project/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/tags/</loc>
-    <lastmod>2019-02-10T16:53:06-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.example.com/tags/demo/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/demo/</loc>
     <lastmod>2018-12-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/image/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/image/</loc>
     <lastmod>2018-12-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/</loc>
+    <loc>https://peperon4141.github.io/nyanto/post/</loc>
     <lastmod>2018-12-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/the-figure-shortcode/</loc>
+    <loc>https://peperon4141.github.io/nyanto/story/</loc>
     <lastmod>2018-12-24T12:29:41+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/post-with-featured-image/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/</loc>
+    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/post/the-figure-shortcode/</loc>
+    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/story/the-figure-shortcode/</loc>
+    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/</loc>
+    <lastmod>2018-12-24T12:29:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/post/post-with-featured-image/</loc>
     <lastmod>2018-10-01T16:15:09+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/typography/</loc>
+    <loc>https://peperon4141.github.io/nyanto/story/post-with-featured-image/</loc>
+    <lastmod>2018-10-01T16:15:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/tags/typography/</loc>
     <lastmod>2018-09-29T11:36:33+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/typography/</loc>
+    <loc>https://peperon4141.github.io/nyanto/post/typography/</loc>
     <lastmod>2018-09-29T11:36:33+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/creating-a-new-theme/</loc>
+    <loc>https://peperon4141.github.io/nyanto/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/series/hugo-101/</loc>
+    <loc>https://peperon4141.github.io/nyanto/series/hugo-101/</loc>
     <lastmod>2018-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/series/</loc>
+    <loc>https://peperon4141.github.io/nyanto/series/</loc>
     <lastmod>2018-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/about/</loc>
+    <loc>https://peperon4141.github.io/nyanto/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/hugo-template-primer/</loc>
+    <loc>https://peperon4141.github.io/nyanto/post/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/getting-started-with-hugo/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/go/</loc>
+    <loc>https://peperon4141.github.io/nyanto/post/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/golang/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/hugo/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/templates/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/tags/themes/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.com/post/migrate-to-hugo-from-jekyll/</loc>
+    <loc>https://peperon4141.github.io/nyanto/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/post/migrate-to-hugo-from-jekyll/</loc>
     <lastmod>2018-03-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://peperon4141.github.io/nyanto/categories/</loc>
   </url>
   
 </urlset>
