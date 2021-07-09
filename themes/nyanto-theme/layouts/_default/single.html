@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="container">
+    <h1 class="border-bottom">{{ .Title }}</h1>
+    <span class="blog-post-meta">{{ .Date.Format "2006.01.02"  }}</span>
+
+    <article class="blog-post">
+      <img src="https://via.placeholder.com/800x1600" alt="">
+    </article>
+    <article class="blog-post">{{ .Content }}</article>
+</main>
+{{ end }}

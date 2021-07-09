@@ -1,0 +1,15 @@
+<div>
+  {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog") 5 }}
+  {{ range $paginator.Pagers }}
+  {{ printf "ページ番号-[%d]" .PageNumber }}
+  <br>
+  {{ printf "URL %s" (.URL|absURL) }}
+  <ul>
+  {{ range .Pages }}
+  <li>{{ .Title }}</li>
+  {{ end }}
+  </ul>
+  <br>
+  {{ end }}
+  
+</div>

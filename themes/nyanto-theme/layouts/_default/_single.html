@@ -1,0 +1,56 @@
+{{ define "main" }}
+<main id="_default-single" class="row justify-content-start">
+  <article class="col-8">
+    <div class="container m-3 p-3">
+      <section class="content box">
+        <h1 class="m-3">{{ .Title }}</h1>
+        <div class="m-3">{{ .Content }}</div>
+    
+        <section class="card-footer">
+          {{ with .PrevInSection }}
+            <a class="card-footer-item" href="{{ .Permalink }}"> < {{ .LinkTitle }}</a>
+          {{ end }}
+      
+          {{ with .NextInSection }}
+            <a class="card-footer-item" href="{{ .Permalink }}">{{ .LinkTitle }} > </a>
+          {{ end }}
+        </section>
+      </artsectionicle>
+    
+      <section>
+        <h2>コメント</h2>
+      </section>
+    </div>
+  </article>
+  
+  <aside class="col-4">
+    <div class="row">
+      <h2 class="card-header">
+        <span class="card-header-title">プロフィール</span>
+      </h2>
+      <div class="card-image">
+        <figure class="image">
+          <img src="https://via.placeholder.com/400x400" alt="">
+        </figure>
+      </div>
+      <div class="card-content">
+        右サイド右サイド右サイド右サイド右サイド
+      </div>
+    </div>
+
+    <div class="card mt-6">
+      <h2 class="card-header">
+        <span class="card-header-title">プロフィール</span>
+      </h2>
+      <div class="card-image">
+        <figure class="image">
+          <img src="https://via.placeholder.com/400x400" alt="">
+        </figure>
+      </div>
+      <div class="card-content">
+        右サイド右サイド右サイド右サイド右サイド
+      </div>
+    </div>
+  </aside>
+</main>
+{{ end }}
