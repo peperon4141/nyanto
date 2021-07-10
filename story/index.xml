@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stories on ニャンと素晴らしい日常</title>
+    <title>ニャンと素晴らしい日常</title>
     <link>https://peperon4141.github.io/nyanto/story/</link>
-    <description>Recent content in Stories on ニャンと素晴らしい日常</description>
+    <description>Recent content on ニャンと素晴らしい日常</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2016-19 &lt;a href=&#39;https://github.com/siegerts/hugo-theme-basic&#39;&gt;Hugo Theme Basic&lt;/a&gt;. Made by &lt;a href=&#39;https://twitter.com/siegerts&#39;&gt;@siegerts&lt;/a&gt;.</copyright>
-    <lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate><atom:link href="https://peperon4141.github.io/nyanto/story/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://peperon4141.github.io/nyanto/story/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The &#34;figure&#34; Shortcode</title>
       <link>https://peperon4141.github.io/nyanto/story/the-figure-shortcode/</link>

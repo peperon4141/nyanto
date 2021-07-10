@@ -4,6 +4,10 @@
   --text-color: #212529;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 img {
   width: 100%;
   max-width: 100%;
@@ -11,16 +15,4 @@ img {
 
 main img {
   margin-bottom: 8px;
-}
-
-header #menu span {
-  border-bottom: 4px solid var(--main-color);
-  margin-bottom: 4px;
-}
-
-header #menu span:hover {
-  border-top: 4px solid var(--dark-main-color);
-  border-bottom: 4px solid var(--dark-main-color);
-  background-color: var(--main-color);
-  border-radius: 4px;
 }

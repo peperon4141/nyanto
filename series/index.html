@@ -10,7 +10,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" href="https://peperon4141.github.io/nyanto/css/bootstrap-variable.css" />
 
 
 <script type="application/javascript">
@@ -71,37 +71,53 @@ if (!doNotTrack) {
   <body>
     <header class="header">  
   
-  <nav class="navbar p-2" style="background-color: var(--main-color); border-bottom: 4px solid var(--dark-main-color);">
+  <nav class="navbar bg-primary p-3">
     <a class="navvar-brand" href="https://peperon4141.github.io/nyanto/">
       <img class="is-rounded" src="https://via.placeholder.com/40x40">
     </a>
-    <a class="navbar-item" href="https://peperon4141.github.io/nyanto/" style="margin: 0 auto; text-decoration: none; color: var(--text-color); box-sizing: border-box;">
-      ニャンと素晴らしい日常
+    <a class="navbar-item mx-auto fs-3 text-decoration-none text-dark" href="https://peperon4141.github.io/nyanto/">
+      <span>ニャンと素晴らしい日常</span>
     </a>
   </nav>
 
   
-  <img src="https://via.placeholder.com/1600x800" alt="">
+  <div id="header-image" style="max-height: 600px;">
+    <img src="https://via.placeholder.com/1600x800" style="max-height: 600px;">
+  </div>
 
   
-  <nav id="menu" class="d-flex justify-content-between p-3" style="border-bottom: 4px solid var(--dark-main-color);">
-    <div class="m-1">
-      <span class="p-3"><a>TOP</a></span>
-      <span class="p-3"><a>漫画</a></span>
-      <span class="p-3"><a>ブログ</a></span>
-      <span class="p-3"><a>プロフィール</a></span>
-      <span class="p-3"><a>お問い合わせ</a></span>
-    </div>
-    <div class="m-1">
-      <span class="p-3"><a>フォロー</a></span>
-    </div>
+  <nav id="menu" class="border-bottom border-primary border-4 pt-3 position-relative" style="overflow-x: auto;">
+    <ul class="d-flex justify-content-start ps-4" style="list-style: none; margin-right: auto;">
+      
+        <li class="mx-2">
+          <a class="btn btn-primary" href="https://peperon4141.github.io/nyanto/" style="white-space: nowrap;">TOP</a>
+        </li>
+      
+        <li class="mx-2">
+          <a class="btn btn-primary" href="https://peperon4141.github.io/nyanto/story/" style="white-space: nowrap;">漫画</a>
+        </li>
+      
+        <li class="mx-2">
+          <a class="btn btn-primary" href="https://peperon4141.github.io/nyanto/post/" style="white-space: nowrap;">ブログ</a>
+        </li>
+      
+        <li class="mx-2">
+          <a class="btn btn-primary" href="https://peperon4141.github.io/nyanto/about/" style="white-space: nowrap;">プロフィール</a>
+        </li>
+      
+        <li class="mx-2">
+          <a class="btn btn-primary" href="https://peperon4141.github.io/nyanto/contact/" style="white-space: nowrap;">お問い合わせ</a>
+        </li>
+      
+    </ul>
   </nav>
 
   
-  <nav class="p-3">
-    <ul class="breadcrumb mb-0" style="--bs-breadcrumb-divider: '>';">
-      <li class="breadcrumb-item"><a href="https://peperon4141.github.io/nyanto/">ニャンと素晴らしい日常</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Library</li>
+  <nav class="p-3 ms-3">
+    <ol class="breadcrumb mb-0" style="--bs-breadcrumb-divider: '>';">
+    
+    <li class="breadcrumb-item"><a href="https://peperon4141.github.io/nyanto/">TOP</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Series</li>
     </ul>
   </nav>
 </header>
@@ -146,7 +162,7 @@ if (!doNotTrack) {
   </section>
   </main>
 </div>
-      <div class="col-md-4"><div class="position-sticky p-3" style="top: 2rem;">
+      <div class="col-md-4"><div class="position-sticky">
   <div class="card">
     <div class="card-header">About</div>
     <div class="card-body">
@@ -171,7 +187,7 @@ if (!doNotTrack) {
 </div>
 </div>
     </div>
-    <footer class="footer mt-auto py-3" style="background-color: var(--main-color); border-top: 4px solid var(--dark-main-color);">
+    <footer class="footer bg-primary mt-auto p-5">
   <p class="text-center">© 2016-19 <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>. Made by <a href='https://twitter.com/siegerts'>@siegerts</a>.</p>
 </footer>
   </body>
