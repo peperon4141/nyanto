@@ -9,6 +9,9 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
 # リンクを絶対パスにする場合はtrue
 canonifyurls = true
 
+[params]
+  headerImage = "https://via.placeholder.com/1600x800"
+  logoImage = "https://via.placeholder.com/40x40"
 
 [taxonomies]
   category = "categories"
@@ -18,17 +21,31 @@ canonifyurls = true
 [Permalinks]
   post = "post/:slug"
 
-[[menu.main]]
-  name = "漫画"
-  url = "story/"
+[menu]
+  [[menu.main]]
+    name = "TOP"
+    url = "/"
+    weight = 1
 
-[[menu.main]]
-  name = "ブログ"
-  url = "post/"
+  [[menu.main]]
+    name = "漫画"
+    url = "story/"
+    weight = 10
 
-[[menu.main]]
-  name = "プロフィール"
-  url = "about/"
+  [[menu.main]]
+    name = "ブログ"
+    url = "post/"
+    weight = 20
+
+  [[menu.main]]
+    name = "プロフィール"
+    url = "about/"
+    weight = 30
+
+  [[menu.main]]
+    name = "お問い合わせ"
+    url = "contact/"
+    weight = 40
 
 [privacy]
   [privacy.googleAnalytics]

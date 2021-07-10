@@ -1,32 +1,43 @@
 {{ define "main" }}
-<main id="_default-list">
+<main id="_default-list" class="m-3">
+  <h1 class="border-bottom mb-3">漫画一覧</h1>
+
+  {{ range .Data.Pages.ByDate.Reverse }}
+    <div class="card position-relative mb-3" style="height: 320px; overflow-y: hidden">
+      <span class="position-absolute top-0 start-0 badge bg-danger m-2">NEW</span>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/800x1600" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">{{ .Date.Format "January 2, 2006" }}</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+
   <section>
-    <ul id="list" class="pl0">
-      {{ range .Data.Pages.ByDate.Reverse }}
-      <li class="list pl0 lh-copy">
-        <a href="{{ .Permalink}}">{{ .Title }}</a>
-        <span>{{ .Date.Format "January 2, 2006" }}</span>
+    <ul class="pagination d-flex justify-content-between">
+      <li class="page-link btn-outline-primary rounded disabled" style="margin-right: auto;">
+        <span>Previous</span>
       </li>
-      {{ end }}
+      <li class="page-link btn-outline-primary rounded-start">
+        <a href="#">1</a>
+      </li>
+      <li class="page-link btn-outline-primary active" aria-current="page">
+        <span >2</span>
+      </li>
+      <li class="page-link btn-outline-primary rounded-end">
+        <a href="#">3</a>
+      </li>
+      <li class="page-link btn-outline-primary rounded" style="margin-left: auto;">
+        <a href="#">Next</a>
+      </li>
     </ul>
   </section>
-
-  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
-    <a class="pagination-previous">Previous</a>
-    <a class="pagination-next">Next page</a>
-  </nav>
-
-  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
-    <ul class="pagination-list">
-      <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
-      <li><span class="pagination-ellipsis">&hellip;</span></li>
-      <li><a class="pagination-link" aria-label="Goto page 45">45</a></li>
-      <li><a class="pagination-link is-current" aria-label="Page 46" aria-current="page">46</a></li>
-      <li><a class="pagination-link" aria-label="Goto page 47">47</a></li>
-      <li><span class="pagination-ellipsis">&hellip;</span></li>
-      <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
-    </ul>
-  </nav>
-
 </main>
 {{ end }}

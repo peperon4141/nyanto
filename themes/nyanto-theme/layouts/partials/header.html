@@ -1,36 +1,34 @@
 <header class="header">  
   <!-- ナビゲーション -->
-  <nav class="navbar p-2" style="background-color: var(--main-color); border-bottom: 4px solid var(--dark-main-color);">
+  <nav class="navbar bg-primary p-3">
     <a class="navvar-brand" href="{{ .Site.BaseURL }}">
-      <img class="is-rounded" src="https://via.placeholder.com/40x40">
+      <img class="is-rounded" src="{{ .Site.Params.LogoImage }}">
     </a>
-    <a class="navbar-item" href="{{ .Site.BaseURL  }}" style="margin: 0 auto; text-decoration: none; color: var(--text-color); box-sizing: border-box;">
-      {{ .Site.Title }}
+    <a class="navbar-item mx-auto fs-3 text-decoration-none text-dark" href="{{ .Site.BaseURL }}">
+      <span>{{ .Site.Title }}</span>
     </a>
   </nav>
 
   <!-- トップイメージ -->
-  <img src="https://via.placeholder.com/1600x800" alt="">
+  <div id="header-image" style="max-height: 600px;">
+    <img src="{{ .Site.Params.HeaderImage | relURL }}" style="max-height: 600px;">
+  </div>
 
   <!-- メニュー -->
-  <nav id="menu" class="d-flex justify-content-between p-3" style="border-bottom: 4px solid var(--dark-main-color);">
-    <div class="m-1">
-      <span class="p-3"><a>TOP</a></span>
-      <span class="p-3"><a>漫画</a></span>
-      <span class="p-3"><a>ブログ</a></span>
-      <span class="p-3"><a>プロフィール</a></span>
-      <span class="p-3"><a>お問い合わせ</a></span>
-    </div>
-    <div class="m-1">
-      <span class="p-3"><a>フォロー</a></span>
-    </div>
+  <nav id="menu" class="border-bottom border-primary border-4 pt-3 position-relative" style="overflow-x: auto;">
+    <ul class="d-flex justify-content-start ps-4" style="list-style: none; margin-right: auto;">
+      {{ range .Site.Menus.main.ByWeight }}
+        <li class="mx-2">
+          <a class="btn btn-primary" href="{{ .URL | relURL }}" style="white-space: nowrap;">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
   </nav>
 
   <!-- パンくずリスト -->
-  <nav class="p-3">
-    <ul class="breadcrumb mb-0" style="--bs-breadcrumb-divider: '>';">
-      <li class="breadcrumb-item"><a href="{{ .Site.BaseURL  }}">{{ .Site.Title }}</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Library</li>
+  <nav class="p-3 ms-3">
+    <ol class="breadcrumb mb-0" style="--bs-breadcrumb-divider: '>';">
+      {{- template "breadcrumb" (dict "node" . "start" .) }}
     </ul>
   </nav>
 </header>

@@ -1,7 +1,7 @@
 +++
-title = "About Hugo"
+title = "Contact"
 date = "2014-04-09"
-linkTitle = "プロフィール"
+linkTitle = "お問い合わせ"
 +++
 
 Hugo is the **world’s fastest framework for building websites**. It is written in Go.
